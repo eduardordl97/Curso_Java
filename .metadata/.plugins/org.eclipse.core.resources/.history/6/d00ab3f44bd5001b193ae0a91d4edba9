@@ -1,0 +1,17 @@
+package Paquete1;
+
+public class Estatico {
+	//Atributos
+	private String frase = "Primera frase";
+	
+	public static void main(String [] args) {
+		Estatico obj1 = new Estatico();
+		Estatico obj2 = new Estatico();
+		
+		obj2.frase = "segunda frase";
+		
+		System.out.println(obj1.frase);
+		System.out.println(obj2.frase);
+	}
+
+}
