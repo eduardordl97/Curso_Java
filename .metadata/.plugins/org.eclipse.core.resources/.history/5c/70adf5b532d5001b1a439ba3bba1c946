@@ -1,9 +1,0 @@
-package ClasesYObjetos;
-
-public class Persona {
-	//Atributos 
-	public Persona() {
-		// TODO Auto-generated constructor stub
-	}S
-
-}
